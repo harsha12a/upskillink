@@ -50,7 +50,7 @@ function First() {
           </div>
           <div>
             <img
-              className="z-[1] bottom-[-21px] left-1/2 absolute transform -translate-x-1/2"
+              className="z-[1] bottom-[-50px] left-1/2 absolute transform -translate-x-1/2"
               src={person}
               alt=""
             />
