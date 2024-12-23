@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gloria+Hallelujah&family=Manrope:wght@200..800&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Playwrite+NL+Guides&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
