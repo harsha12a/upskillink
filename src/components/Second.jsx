@@ -5,7 +5,7 @@ import profile from '../assets/profile.svg'
 
 function Second() {
   return (
-    <section className="w-full h-screen absolute min-h-[750px] ">
+    <section className="w-full h-screen relative min-h-[750px] ">
         <div className=" bg-black">
           <div className='text-white text-3xl text-center pt-20 font-bold'>Mentors From Your Dream Companies</div>
           <div className='text-[gray] pt-1 text-sm text-center '>Connect, Learn and Grow with the Help of Top mentors</div>
