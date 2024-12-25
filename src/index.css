@@ -12,3 +12,11 @@ body{
     width: 800px;
     bottom: 0px;
 }
+.effect:hover{
+    background-color: #E7FFC2;
+    box-shadow: 4px 4px 0 rgba(0,0,0,1);
+    transition: 0.3s;
+    .main{
+        background-color: #F2FFDD;
+    }
+}
