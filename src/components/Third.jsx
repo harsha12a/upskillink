@@ -13,11 +13,11 @@ function Third() {
       <h2 className='font-bold text-5xl text-center'>Learner Outcomes On Upskillink</h2>
       <h1 className='text-2xl text-center mt-5'>Start, switch, or advance your career with more than 34,000+ courses on Upskillink!</h1>
       <div className="relative">
-        <img className="h-[350px] m-5 mx-auto w-[1000px]" src={vedio} alt="Video" />
+        <img className=" m-5 mx-auto w-[1000px] overflow-hidden" src={vedio} alt="Video" />
         <img className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 h-[50px] w-[50px]" src={Ellipse} alt="Pause/Resume" />
         <img className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 h-[10px] w-[10px]" src={Ellipsevector} alt="Ellipse Vector" />
         <p className="absolute  text-[30px] left-[40%] top-[45%] transform -translate-x-1/2 text-white font-caveat  z-40">play for more</p>
-        <img className="absolute top-[60%] left-[40%] transform -translate-y-1/2 z-30 h-[40px] w-[40px]" src={Ellipsearrow} alt="" />
+        <img className="absolute top-[60%] left-[40%] transform -translate-y-1/2 z-30 w-[40px]" src={Ellipsearrow} alt="" />
         </div>
     </section>
   );
