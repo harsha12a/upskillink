@@ -36,7 +36,7 @@ function First() {
             Meet the Professional Mentor
           </div>
           <div className="flex items-center justify-center flex-wrap md:justify-between">
-            <div class="ml-14 z-20">
+            <div className="ml-14 z-20">
               <span className="text-6xl mb-0">&ldquo;</span>
               <blockquote className="text-lg font-semibold text-black italic mb-4">
                 <p>

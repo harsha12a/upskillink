@@ -11,9 +11,9 @@ function Fourth() {
   
     <div className='w-full md:w-1/2 flex flex-col justify-center items-center'>
       <div className="bg-[#1C1C1C] rounded-full flex justify-between p-3 m-5">
-        <h1 className="bg-clip-text text-transparent  pt-7 bg-gradient-to-r from-[#DADADA00] to-[#747474] text-[29px]">Open Mic</h1>
-        <h1 className="text-white text-[40px] w-1/2 text-center">Easy To Use Interface</h1>
-        <h1 className="text-transparent bg-clip-text pt-7 bg-gradient-to-l from-[#DBDBDB00] to-[#A4A4A4] text-[29px]">Community</h1>
+        <div className="bg-clip-text text-transparent  pt-7 bg-gradient-to-r from-[#DADADA00] to-[#747474] text-[25px] sm:text-[29px]">Open Mic</div>
+        <div className="text-white text-[30px] sm:text-[40px] w-1/2 text-center">Easy To Use Interface</div>
+        <div className="text-transparent bg-clip-text pt-7 bg-gradient-to-l from-[#DBDBDB00] to-[#A4A4A4] text-[25px] sm:text-[29px]">Community</div>
       </div>
   
       <div className="text-center border-2 border-[#686666] rounded-[25%] flex flex-col items-center p-3 m-3">

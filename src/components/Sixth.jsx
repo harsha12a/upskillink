@@ -83,7 +83,7 @@ function Sixth() {
       </div>
       <div className="flex items-center justify-center md:justify-between flex-wrap p-10">
         {arr.map((item) => (
-          <div className="flex items-start flex-col justify-center border-[3px] my-3 h-[320px] w-[350px] border-black rounded-[30px] effect">
+          <div className="flex items-start flex-col justify-center border-[3px] my-3 h-[320px] w-[350px] border-black rounded-[30px] effect" key={item.id}>
             <div className="w-[300px] border-[3px] border-black h-[190px] mt-3 m-auto rounded-[30px] main">
               <img className="m-auto" src={item.img} alt="" />
             </div>
