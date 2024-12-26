@@ -7,8 +7,8 @@ import angleup from "../assets/angleup.png";
 
 function Footer() {
   return (
-    <section className="w-full h-screen min-h-[900px] md:min-h-[800px] lg:min-h-[800px] mt-[50px] absolute bg-black mt-[200px]">
-      <div className="px-5 md:px-[100px] flex flex-col md:flex-row md:gap-x-[100px] mb-[25px] text-[18px]">
+    <section className="w-full min-h-[800px] md:min-h-[800px] lg:min-h-[800px] absolute bg-black mt-[200px]">
+      <div className="px-5 md:px-[100px] flex flex-col md:flex-row md:gap-x-[200px] mb-[25px] text-[18px]">
         
         <ul className="mb-8 md:mb-0">
           <h1 className="text-white mb-4 font-bold text-lg md:text-xl">For Candidates</h1>
@@ -66,18 +66,18 @@ function Footer() {
         <img src={angleup} alt="Scroll Up" className="h-2/4 w-2/4" />
       </div>
 
-      <h1 className="text-white font-bold text-[40px] sm:text-[60px] md:text-[100px] lg:text-[150px] xl:text-[280px] text-center m-0 p-0 leading-none">Upskillink</h1>
+      <h1 className="text-white font-bold text-[40px] sm:text-[60px] md:text-[100px] lg:text-[200px] xl:text-[350px] text-center py-2 leading-none">Upskillink</h1>
 
 
     
-      <div className="max-w-full mt-8 h-[100px] md:h-[120px] bg-gray-800 rounded-[20px] md:rounded-[40px] flex flex-col md:flex-row justify-between items-center px-5 md:px-10 md:mx-auto md:max-w-[1200px] lg:mt-9">
+      <div className="max-w-full mt-12 h-[150px] md:h-[120px] bg-gray-800 rounded-[20px] md:rounded-[40px] flex flex-col md:flex-row justify-between items-center px-7 md:px-10 md:mx-auto md:max-w-[1700px] lg:mt-9">
         <div className="mb-3 md:mb-0">
-          <p className="text-left text-white text-sm md:text-base">
+          <p className="text-left text-white text-lg md:text-xl">
             Copyright©2024Upskillink
           </p>
         </div>
 
-        <div className="flex text-white text-sm md:text-base">
+        <div className="flex text-white md:text-xl">
           <ul className="flex flex-wrap justify-center space-x-4 md:space-x-6">
             <li className="hover:text-gray-400 cursor-pointer">Term of Use</li>
             <li className="hover:text-gray-400 cursor-pointer">Privacy Policy</li>
