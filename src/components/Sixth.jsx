@@ -70,12 +70,12 @@ function Sixth() {
   ];
   return (
     <div className="h-[full] bg-white">
-      <div className="pl-40 pt-20">
+      <div className="pl-4 md:pl-40 pt-20">
         <div className="flex items-center justify-center font-bold rounded-full border-[3px] border-black h-[40px] w-[200px] ">
           TOP CATEGORY
         </div>
       </div>
-      <div className="flex items-center justify-between pl-40 pr-40 pt-10">
+      <div className="flex items-center justify-between pl-4 pr-4 md:pl-40 md:pr-40 pt-10">
         <div className="text-4xl font-bold text-center">
           Category You Must Know
         </div>
